@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog — Bruno</title>
+  <meta name="description" content="Artigos sobre carreira, finanças, ciência de dados e estudos." />
+  <link rel="canonical" href="./blog.html" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header container">
+    <h1 class="site-title">Blog</h1>
+    <p class="site-subtitle">Notas de estudo, projetos e reflexões de carreira.</p>
+  </header>
+
+  <div class="navbar">
+    <nav class="navbar-inner container" aria-label="Principal">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="carreira.html">Carreira</a>
+      <a class="active" href="blog.html">Blog</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </div>
+
+  <main class="container section">
+    <article class="post">
+      <h2><a href="posts/post-exemplo.html">Como estruturaria meu estudo de valuation</a></h2>
+      <p class="muted">Publicado em 20 ago 2025 • 5 min</p>
+      <p class="excerpt">Organização de cronograma, leituras e exercícios práticos para modelagem de fluxo de caixa...</p>
+    </article>
+    <!-- Duplique o bloco acima para novos posts -->
+  </main>
+
+  <footer class="container">
+    © <span id="y"></span> Bruno. Todos os direitos reservados.
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
